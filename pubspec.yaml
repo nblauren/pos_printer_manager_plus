@@ -1,6 +1,7 @@
 name: pos_printer_manager_plus
 description: flutter package for print or list down both wireless and bluetooth esc printer devices.
 version: 0.0.5
+publish_to: "none"
 homepage: https://github.com/XwaySolutions/pos_printer_manager_plus
 
 environment:
@@ -12,8 +13,8 @@ dependencies:
     sdk: flutter
   # flutter_blue: 
   #   path: ./../flutter_blue  
-  esc_pos_utils_plus:  ^2.0.1+6
-    # path: ./../esc_pos_utils_plus
+  esc_pos_utils_plus:
+    git: https://github.com/nblauren/esc_pos_utils_plus.git
   blue_thermal_printer: ^1.2.3          
   network_info_plus: ^4.0.2
   easy_logger: ^0.0.2
